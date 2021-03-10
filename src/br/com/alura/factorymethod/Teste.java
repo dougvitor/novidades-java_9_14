@@ -4,9 +4,9 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-//Novidade Java 9 - Factory Method para Collection.
 public class Teste {
 
+	//Novidade Java 9 - Factory Method para Collection.
 	public static void main(String[] args) {
 		/*
 			ArrayList<String> nomes = new ArrayList<>();
