@@ -1,0 +1,25 @@
+JSHELL
+
+- No cmd digitar jshell e ele entrará no modo interativo, mostrando a versão do java configurada na variável de ambiente.
+
+- /help - mostra os principais comandos
+
+- Pode ser executados snippets do tipo:
+String nome = "João"; 
+nome.toUpperCase() // O resultado dessa expressão será JOÃO e ele atribuirá a uma variavel gerada dinamicamente pelo jshell
+
+- /set feedback temos as opções:
+verbose = que detalha no terminal as operações que foram efetuadas
+silet = que não mostra nada no terminal, apenas o resultado
+normal = que mostra jshell> e o resultado da statement
+
+- /list mostra tudo que já foi executado até então
+
+- É possível criar métodos e classes
+
+- /edit edita algum comando previamente digitado e executado
+
+- /drop numero do snippet remove o comando executado
+
+- É possível verificar o javadoc da api java, digitando o nome da classe e dando um tab, por exemplo Stream + tab
+
