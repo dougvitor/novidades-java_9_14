@@ -23,3 +23,5 @@ normal = que mostra jshell> e o resultado da statement
 
 - É possível verificar o javadoc da api java, digitando o nome da classe e dando um tab, por exemplo Stream + tab
 
+- /save [nome do arquivo].extensao é possível salvar os comandos criados e executados
+
