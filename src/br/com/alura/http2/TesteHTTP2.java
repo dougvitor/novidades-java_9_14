@@ -23,6 +23,11 @@ public class TesteHTTP2 {
 		System.out.println(response.statusCode());
 		System.out.println(response.body());
 		System.out.println(response.version());
+		
+		//Requisição assincrona
+		client
+			.sendAsync(request, BodyHandlers.ofString())
+			.whenComplete((s, t) -> System.out.println(s.body()));
 	}
 
 }
