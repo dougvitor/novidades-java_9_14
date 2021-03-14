@@ -2,23 +2,23 @@ Aula 05 - Java Platform Module System (JPMS).
 
 O que aprendi:
 
-- Na plataforma Java não existia uma forma elaborada de carregar JARs e classes, que foi a razão de conflitos, também chamado de classpath hell
-- Para evitar esses conflitos e melhorar o encapsulamento das API's, pensou-se na modularização da plataforma
-- Com o JPMS (Java Plataform Module System), é possível trabalhar com module-paths, que é a alternativa ao classpath
-- Para declarar as dependências entre módulos e exportar os pacotes visíveis, é usado um arquivo chamado module-info.java
+- Na plataforma Java nÃ£o existia uma forma elaborada de carregar JARs e classes, que foi a razÃ£o de conflitos, tambÃ©m chamado de classpath hell
+- Para evitar esses conflitos e melhorar o encapsulamento das API's, pensou-se na modularizaÃ§Ã£o da plataforma
+- Com o JPMS (Java Plataform Module System), Ã© possÃ­vel trabalhar com module-paths, que Ã© a alternativa ao classpath
+- Para declarar as dependÃªncias entre mÃ³dulos e exportar os pacotes visÃ­veis, Ã© usado um arquivo chamado module-info.java
 
-Conclusão
+ConclusÃ£o
 
 Novidades Java 8 (03/2014)
 
 - Default Methods (11/2011);
-- Expressão lambda (11/2011);
+- ExpressÃ£o lambda (11/2011);
 - Stream API (09/2011);
 - LTS (long-term-support);
 
 Novidades Java 9 (07/2017)
 
-- Factory Method para Coleções (06/2014);
+- Factory Method para ColeÃ§Ãµes (06/2014);
 - Jshell (05/2014);
 - Fluxo Reativo (08/2015);
 - Jigsaw (Java Modular - JPMS) (07/2014);
@@ -26,22 +26,22 @@ Novidades Java 9 (07/2017)
 Novidades Java 10 (03/2018)
 
 - Releases baseadas em tempo (11/2017);
-- Inferência de variável (03/2016);
+- InferÃªncia de variÃ¡vel (03/2016);
 - Interface para garbage collector (08/2016);
 
 Novidades Java 11 (09/2018)
 
-- Execução de um arquivo java com único comando (12/2017);
+- ExecuÃ§Ã£o de um arquivo java com Ãºnico comando (12/2017);
 - Http Client (05/2014);
 - LTS (long-term-support);
 
 Novidades Java 12 (03/2019)
 
-- Inclusão de novo garbage collector - Shenandoah (01/2014);
+- InclusÃ£o de novo garbage collector - Shenandoah (01/2014);
 
 Novidades Java 13 (09/2019)
 
-- Mudanças na Socket API (02/2019);
+- MudanÃ§as na Socket API (02/2019);
 - Text Blocks (04/2019);
 
 Novidades Java 14 (03/2020);
